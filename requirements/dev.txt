@@ -1,0 +1,2 @@
+-r commom.txt
+FrgeryPy==0.1

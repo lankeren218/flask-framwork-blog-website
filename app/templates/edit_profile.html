@@ -1,0 +1,14 @@
+{% extends"base.html" %}
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Flask-Edit_profile{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    Edit_profile
+</div>
+<div class="col-md-7">
+    {{ wtf.quick_form(abc) }}
+</div>
+{% endblock %}
